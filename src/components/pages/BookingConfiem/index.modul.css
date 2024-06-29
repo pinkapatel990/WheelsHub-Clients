@@ -1,0 +1,170 @@
+.main-screen {
+    margin-top: 60px;
+    background-color: rgb(240, 241, 241);
+    /* overflow: hidden; */
+    height: 100vh;
+
+}
+
+.display-contant {
+    display: flex;
+}
+
+
+
+.car-del1 {
+    width: 60%;
+    overflow: auto;
+    margin-left: 20%;
+}
+
+.add-del {
+    margin-top: -2rem;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+    padding: 0rem;
+    display: inline-flex;
+}
+
+.pragraph {
+    font-size: small;
+    padding: 0.3rem;
+    color: gray;
+}
+
+.left-texts {
+    margin-right: 10px;
+}
+
+.pay-del {
+    margin-top: 0.50rem;
+    background-color: white;
+    text-align: center;
+}
+
+.pay-del h5 {
+    font-size: small;
+    color: gray;
+    border-bottom: 1px solid rgb(200, 207, 207);
+    padding: 0.30rem;
+}
+
+.pay-del i {
+    font-size: small;
+}
+
+.pay-del h6 {
+    color: gray;
+}
+
+.pay-del p {
+    border-bottom: 1px solid rgb(200, 207, 207);
+}
+
+.addtional {
+    display: inline-flex;
+    border-bottom: 1px solid rgb(200, 207, 207);
+    width: 100%;
+}
+
+.addtional h2 {
+    font-size: small;
+}
+
+.info {
+    margin-left: 5rem;
+    height: 100px;
+}
+
+.info1 {
+    margin-left: 5rem;
+    height: 100px;
+}
+
+.show-del {
+    background-color: white;
+
+}
+
+.show-del button {
+    background-color: transparent;
+    border: none;
+    margin-left: 35%;
+    color: blue;
+}
+
+.notes {
+    margin: 0.4rem;
+}
+
+.notes h6 {
+    color: gray;
+}
+
+.notes p {
+    color: gray;
+    font-size: smaller;
+    margin: 0;
+    padding: 0;
+}
+
+.book {
+    background-color: white;
+    padding: 0.4rem;
+    font-size: smaller;
+    color: rgb(52, 77, 4);
+    text-align: center;
+}
+
+.cashPay {
+    margin-top: 0.3rem;
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+}
+
+.cashPay h5 {
+    color: gray;
+    font-size: smaller;
+    margin: 0.3rem;
+}
+
+.cashPay img {
+    margin-left: 1rem;
+}
+
+.cashPay h4 {
+    font-size: 1.2rem;
+    margin: 0.3rem;
+}
+
+.my-car-name {
+    display: inline-flex;
+    margin: 0.60rem;
+    margin-left: 20%;
+}
+
+.my-car-name h5 {
+    padding: 0.9rem;
+}
+
+.btn-contine {
+    margin-top: 0.5rem;
+    background-color: #f33f3f;
+    color: #ffffff;
+    width: 100%;
+    padding: 0.7rem;
+    font-weight: bold;
+    border: none;
+}
+
+.pickup-loc {
+    margin: 0.1rem;
+    margin-left: 1rem;
+    /* font-size: 1.3rem; */
+}
+.teams_condition{
+    margin: 1rem;
+    padding: 0.5rem;
+}

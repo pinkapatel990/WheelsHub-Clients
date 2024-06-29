@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.footer .container1 i{
+    font-size: 20px;
+    width: 20px;
+    transition: color .4s ease;
+    color : white;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.footer .container1 p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: 18px; */
+}
+.footer{
+    display: flex;
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+.footer .container1 h1{
+    padding-left: 40px;
+    color: rgb(25, 23, 23);
+}
+
+.footer .container1{
+    /* border: 2px solid white; */
+    width: 550px;
+    height: 300;
+    margin-left: 30px;
+    margin-right: 50px;
+    
+}
+
+
+
+.footer .container2{
+    /* border: 2px solid white; */
+    width: 450px;
+    height: 300;
+    margin-right: 30px;
+    margin-left: 50px;
+
+}
+ .footer .container2 a{
+    text-decoration: none;
+    color: white;
+    /* font-size: 20px; */
+}
+.footer .container2 li{
+    color: red;
+    margin-left: 10px;
+}
+.footer .container2 h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 25px;
+}
+
+.footer .container2 .AllLink{
+    display: flex;
+}
+
+.footer .container2 .AllLink ul{
+    margin-right: 60px;
+}
+
+.footer .container3{
+    /* border: 2px solid white; */
+    width: 450px;
+    height: 300;
+}
+
+.footer .container3 h1{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.footer .container3 input{
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    text-align: center;
+}
+
+.footer .container3 button{
+    padding-right: 120px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 3px;
+    background-color: red;
+}
+
+.footer .container3 button:hover{
+    background-color: rgb(16, 16, 67);
+}
+.footer .container3 i{
+    color: red;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.red{
+    height: 80px;
+    width: 100%;
+    background-color: red;
+    padding-top: 10px;
+}
+.red h1{
+    padding-left: 750px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+

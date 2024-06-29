@@ -1,0 +1,98 @@
+.my-nav2 {
+    position: fixed;
+    margin-top: -3rem;
+}
+
+.bg-color2 {
+    margin-top: -2rem;
+    background-color: rgb(243, 234, 234);
+    height: 90vh;
+}
+.pass-change{
+    margin-top: 5rem;
+    padding: 1rem;
+    margin-left: 20rem;
+  
+}
+.my-pass{
+    width: 25rem;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+    /* height: 200px; */
+}
+.pass-text{
+    border-bottom: 1px solid gray;
+}
+.pass-text button{
+    background-color: transparent;
+    border: none;
+    margin-left: 9rem;
+    text-decoration: underline;
+    color:green;
+}
+
+.pass-text h1 {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    display: inline;
+}
+.my-pass p{
+    text-align: center;
+    margin-top: 2rem;
+}
+.head-pass{
+    margin-top: 2rem;
+    /* font-size: 2rem; */
+}
+.my-update{
+    padding: 2rem;
+}
+.myform{
+    display: grid;
+    padding: 1rem;
+    font-weight: bolder;
+    margin-left: 3rem;
+}
+.btn-pass{
+    margin: 0.2rem;
+    margin-left: 1.3rem;
+}
+.btn-cencel-pass{
+    margin-top: 1rem;
+    padding: 0.4rem;
+    background-color: #f33f3f;
+    width: 6rem;
+    border-radius: 0.3rem;
+}
+.btn-change-pass{
+    padding: 0.4rem;
+    background-color: #f33f3f;
+    width: 6rem;
+    border-radius: 0.3rem;
+
+}
+.btn-cencel-pass:hover{
+    background-color: black;
+    color: white;
+}
+.btn-change-pass:hover{
+    background-color: black;
+    color: white;
+}
+.input-pass{
+    width: 15rem;
+}
+@media only screen and (max-width: 800px) {
+    .pass-change{
+        margin-top: 5rem;
+        padding: 1rem;
+        margin-left: 5rem;
+      
+    }
+    .my-pass{
+        width: 15rem;
+      
+    }
+}

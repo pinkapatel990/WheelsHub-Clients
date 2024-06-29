@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.All{
+    display: grid;
+}
+
+.All .images{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+flex-wrap: wrap;
+}
+
+.All .images .subCar1{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 320px;
+    background-image: url('../../../../../public/car/c9.jpeg');
+    background-size: 320px 300px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.All .images .subCar2{
+    height: 300px;
+    box-shadow: 5px 10px 15px;
+    border-radius: 8px;
+    width: 350px;
+    /* background-image: url('../../../../../public/car/c1.webp'); */
+    background-size: 350px;
+    /* margin-bottom: 40px; */
+    background-repeat: no-repeat;
+    margin-right: 20px;
+}
+.All .images .subCar2 img{
+    border: 0.5px solid;
+    width: 350px;
+    height: 298px;
+}
+
+.All .images .subCar3{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 500px;
+    background-image: url('../../../../../public/car/c4.webp');
+    background-size: cover;
+    /* background-size: 450px; */
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.All .images1{
+    margin-top: 30px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.All .images1 .subCar4{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 400px;
+    background-image: url('../../../../../public/car/c7.webp');
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.All .images1 .subCar5{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 400px;
+    background-image: url('../../../../../public/car/c9.webp');
+    background-size: 400px 300px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.All .images1 .subCar6{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 400px;
+    background-image: url('../../../../../public/car/c8.webp');
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+

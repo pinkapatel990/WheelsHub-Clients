@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.honda{
+    display: grid;
+}
+.honda .images{
+    padding: 2rem;    
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+.honda .images .subCar1{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 400px;
+    background-image: url('../../../../..//public/car/c1.webp');
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.honda .images .subCar2{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 450px;
+    background-image: url('../../../../..//public/car/c2.webp');
+    background-size: 450px 300px;
+    margin-bottom: 10px;
+}
+
+.honda .images .subCar3{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 400px;
+    background-image: url('../../../../..//public/car/c3.webp');
+    margin-left: 20px;
+    /* padding-right: 25px; */
+    background-size: cover;
+    margin-bottom: 10px;
+}

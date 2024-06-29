@@ -1,0 +1,38 @@
+.backImg{
+    background-image: url("../../../../public/car/car3.png");
+    height: 30rem;
+}
+.backImg h2{
+    color: white;
+    margin-top: -3rem;
+    font-size: 25px;
+}
+
+.backImg ul{
+    padding-left: 100px;
+    padding-top: 40px;
+    color: white;
+}
+.contant-main{
+    width: 50rem;
+}
+.contant_table{
+    display: flex;
+}
+.map iframe{
+    margin-top: 1.5rem;
+    margin-right: 5rem;
+    height: 400px;
+    width: 620px;
+  }
+  .btn-submit{
+    width: 30rem;
+    padding: 0.5rem;
+    background-color: #ff5050;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+.btn-submit:hover{
+    background-color: rgb(22, 22, 22);
+}

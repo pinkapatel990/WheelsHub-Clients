@@ -1,0 +1,92 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.contact{
+  display: flex;
+ 
+}
+
+.backImg ul{
+  padding-left: 100px;
+  padding-top: 200px;
+}
+
+.backImg ul a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+ 
+}
+
+.backImg ul a:hover{
+  color: red;
+}
+.contact .form h1{
+  padding-left: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: red;
+}
+
+.contact .form{
+  height: 350px;
+  width: 500px;
+  margin-left: 100px;
+  margin-right: 150px;
+}
+#subject{
+  padding-right: 280px;
+  margin-left: 20px;
+  padding-top: 10px;
+padding-bottom: 10px;
+cursor: pointer;
+}
+
+#name{
+  padding-right:50px ;
+margin-left:20px;
+padding-top: 10px;
+padding-bottom: 10px;
+cursor: pointer;
+}
+#email{
+padding-right:50px ;
+margin-left:20px;
+padding-top: 10px;
+padding-bottom: 10px;
+cursor: pointer;
+}
+
+
+textarea{
+  margin-left: 20px;
+  height: 80px;
+  width: 440px;
+  cursor: pointer;
+}
+
+.contact .form button{
+ margin-left: 20px;
+ margin-top: 10px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 20px;
+ padding-right: 20px;
+  background-color: red;
+  color: white;
+  border: 2px solid white;
+  margin-bottom: 50px;
+
+} 
+.contact .form button:hover{
+  background-color: rgb(17, 17, 79);
+  border: 2px solid white;
+}
+
+.conatact .google{
+  height: 1200px; 
+  width: 600px;
+  
+}
+

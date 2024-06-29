@@ -1,0 +1,203 @@
+.background-image {
+    background-color:  rgb(243, 234, 234);
+}
+
+.my-list {
+    margin-top: 5rem;
+
+}
+.black-text{
+    color: black;
+}
+
+.item-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.item-list span{
+    color: white;
+    background-color: #f33f3f;
+    position: absolute;
+    margin-top: 10px;
+    width: 5rem;
+    padding: 5px 10px;
+    font-weight: bold;
+    /* border-radius: 5px; */
+    transform: rotate(-20deg);
+    /* transform-origin: 1 0;  */
+    /* opacity: -2; */
+}
+.item-title {
+    margin-left: 2rem;
+    display: inline-flex;
+    border-bottom: 1px solid gray;
+}
+.disabled {
+    opacity: 0.5; /* Adjust the opacity to visually indicate that the div is disabled */
+    pointer-events: none; /* Disable pointer events to make the content non-interactive */
+  }
+  
+
+.categary-name {
+    margin-left: 15rem;
+}
+.isBooked{
+    color: red;
+    font-weight: bold;
+}
+.categary-type {
+    padding: 0.3rem;
+    text-transform: capitalize;
+    background-color: #f33f3f;
+    border: 2px solid #f33f3f;
+    width: 8rem;
+    /* border-radius: 0.4rem; */
+    color: #ffffff;
+    box-shadow: 1px 1px 1px  #f33f3f;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+/* .categary-type:hover {
+    background-color: rgb(22, 18, 18);
+    color: white;
+} */
+.categary-type :active {
+    background-color: rgb(22, 18, 18);
+    color: white;
+}
+.car-fram {
+    width: 20rem;
+    background-color: white;
+    color: black;
+    margin: 0rem;
+    box-shadow: 2px 2px 5px gray;
+    z-index: 0;
+    overflow: hidden;
+    position: relative;
+    /* border: 1px solid #f2f8f9; */
+
+    &:hover {
+        transition: all 2s ease-out;
+        box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+        top: -1px;
+        border: 1px solid #cccccc;
+        background-color: white;
+      }
+    
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: -16px;
+        right: -16px;
+        background: #f33f3f;
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        transform: scale(3);
+        transform-origin: 50% 50%;
+        transition: transform 0.10s ease-out;
+      } 
+    
+       &:hover:before {
+        transform: scale(2.15);
+      } 
+}
+.car-fram p{
+    text-align: center;
+    margin: 0.3rem;
+}
+.car-fram img{
+  padding: 0.5rem;
+  height: 50%;
+}
+
+.btn-rent{
+    background-color: black;
+    border: 2px solid black;
+    padding: 0.3rem;
+    margin: 1rem;
+    margin-bottom: 3rem;
+    margin-left: 3.5rem;
+    width: 15rem;
+    border-radius: 0.4rem;
+    font-weight: bolder;
+    color: white;
+    box-shadow: 5px 1px 15px 0px gray;
+}
+.btn-rent:hover{
+    background-color: black;
+    color: white;
+
+}
+.mainContaineInCar{
+    display: flex;
+}
+.yourCar-filterbar-container{
+    margin-left: 2rem;
+    
+
+}
+.yourCar-filterbar-container .car-seat-filter{
+    background-color: #ffffff;
+    width: 13rem;
+    box-shadow: 1px 1px 0px 0px grey;
+    padding: 1rem;
+}
+.car-seat-filter h6{
+    padding: 0.6rem;
+    margin-left: 0.3rem;
+    color: #f33f3f;
+    font-weight: bold;
+}
+.city-filter{
+    margin-top: 1rem;
+    background-color: white;
+    padding: 1rem;
+    box-shadow: 1px 1px 0px 0px grey;
+}
+.city-filter h6{
+    font-weight: bold; padding: 0.6rem;
+    margin-left: 0.3rem;
+    color: #f33f3f;
+    font-weight: bold;
+
+}
+
+.notFound{
+    height: 100vh;
+    img{
+        display: inline;
+        margin-left: 25rem;
+    }
+}
+/* media Query */
+@media  (max-width:800px) {
+    .my-list {
+        margin-left: 0rem;
+       
+    }
+
+    .car-fram {
+        width: 20rem;
+        margin: 0.3rem;
+    }
+
+    #btn-cat {
+        display: block;
+    }
+    .categary-type{
+        margin: 0.3rem;
+    }
+    #title-h3{
+        text-align: center;
+    }
+}
+@media (min-width:1366px) and (max-width:1500px) {
+    .car-fram {
+        width: 22rem;
+        
+    }
+}

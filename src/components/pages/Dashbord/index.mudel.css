@@ -1,0 +1,542 @@
+* {
+    width: auto;
+    height: auto;
+    /* background-color: aliceblue; */
+}
+
+.banner-image {
+    background-image: url("../../../../public/image/background_image/backgroun1.jpg");
+    background-size: cover;
+}
+
+.text-head {
+    margin-top: -5rem;
+    margin-left: 14rem;
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+.text-mini {
+    margin-top: -2rem;
+    margin-left: 25rem;
+    /* display: inline-block; */
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.line-dash {
+    margin-top: 2rem;
+    margin-left: 25rem;
+    border: 3px solid white;
+    width: 30rem;
+}
+
+.text-third {
+    margin-left: 20rem;
+    text-align: center;
+}
+
+/* .display-content {
+    display: block;
+} */
+
+.my-select {
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: inset -3px -3px rgba(24, 2, 2, 0.5);
+    color: white;
+    display: inline-flex;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-left: 180px;
+    font-size: 1rem;
+    position: relative;
+}
+
+
+.input-from {
+    padding: 0.2rem;
+    width: 18rem;
+    margin-bottom: 2rem;
+
+}
+
+.dropdown select {
+    width: 15rem;
+    padding: 1rem;
+    margin-left: 1.0rem;
+    height: 3rem;
+    font-size: smaller;
+    border-radius: px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+
+}
+
+.dropdown select option {
+    margin: 30px;
+    padding: 15px;
+    font-weight: bolder;
+    background-color: rgba(231, 43, 43, 0.5);
+}
+
+
+
+
+
+/* our benefit titles */
+
+.our-benifit-main {
+    margin-top: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px;
+    animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+.benefit-title {
+    border-bottom: 4px solid black;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    color: rgb(24, 20, 20);
+    font-family: Noto Sans Display SemiCondensed ExtraBold;
+    /* margin-left: 15rem; */
+    text-decoration-color: blue;
+
+}
+
+.nav-width {
+    height: 10px;
+}
+
+/* out benefit items */
+.benefit-line {
+    font-weight: bolder;
+}
+
+.beninit-item-main {
+    display: inline-flex;
+    margin: 3rem;
+    /* background-color: white; */
+}
+
+.beninit-item-main h3 {
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.benenit-item {
+    text-align: center;
+}
+
+@keyframes slideInLeft {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.hm-search-heading2 {
+    text-decoration: none;
+    color: azure;
+    margin-left: 2%;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.home-searchBtn-container {
+    color: black;
+    /* border-radius: 1px; */
+    /* margin-left: 5rem; */
+    padding: 0.3rem;
+    font-size: larger;
+    width: 15rem;
+    height: 3rem;
+    border: none;
+    background-color: #ffffff;
+}
+
+.dropIcon {
+    margin-left: 8rem;
+}
+
+.my-city-content1 {
+    /* color: white; */
+    /* margin-left: 5rem; */
+    width: 15rem;
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+}
+
+.my-city-content1 p {
+    box-shadow: 1px 1px rgb(156, 152, 152);
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.my-city-content1 p:hover {
+    /* background-color: black; */
+    background-color: #f33f3f;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+/* Show the dropdown content when the dropdown button is hove#f33f3f over */
+.my-btn-drop:hover .my-city-content1 {
+    display: block;
+}
+
+
+
+
+
+
+
+
+.my-drop {
+    margin-top: 3rem;
+    width: 29rem;
+    margin-left: 25rem;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    padding: 1rem;
+
+}
+
+.city-btn {
+    height: 3rem;
+    margin-left: 0.3rem;
+    width: 10rem;
+    background-color: #f33f3f;
+
+    color: white;
+    font-weight: bolder;
+    border: none;
+    outline: none;
+    border-radius: px;
+
+}
+
+.city-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+
+.our_car {
+    /* margin: 5rem; */
+    margin-left: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-car-offer {
+    width: 25rem;
+    margin: 0.5rem;
+}
+
+.list-car-front {
+    margin-top: 1rem;
+    font-weight: bolder;
+    font-family: cursive;
+    text-align: center;
+}
+
+.list-car-front h1 {
+    border-bottom: 4px solid black;
+    margin-left: 35%;
+    margin-right: 35%;
+    border-radius: 10px;
+    color: rgb(24, 20, 20);
+    font-family: Noto Sans Display SemiCondensed ExtraBold;
+}
+
+
+/* our cars */
+
+.polaroid {
+    width: 30%;
+    height: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+}
+
+.container {
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: 250px;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    margin-left: 20%;
+    width: 55%;
+    margin-top: -20%;
+    transform: translate(-10%, -100%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.polaroid:hover .image {
+    opacity: 0.7;
+}
+
+.polaroid:hover .middle {
+    opacity: 1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.link-car {
+    text-decoration: none;
+
+}
+
+.text a {
+    background-color: #f33f3f;
+    color: white;
+    margin-left: 30%;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.text a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.name-car {
+    margin-top: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:800px) {
+
+    .banner-image {
+        background-size: cover;
+        background-image: url("/public/image/background_image/backgroun1.jpg");
+        
+    }
+
+    #header-dashbord {
+        font-size: 30px;
+        /* text-align: center; */
+    }
+
+    #title-dashbord {
+        /* font-size: 20px; */
+        display: inline-block;
+        /* margin-left: 2rem; */
+    }
+
+
+    #benefit-main {
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    #benefit-title {
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+
+    .benefit-line {
+        text-align: center;
+    }
+
+    .beninit-item-main {
+        display: inline-block;
+        margin: 3rem;
+    }
+
+    .city-btn {
+        padding: 0.3rem;
+    }
+
+    .my-select {
+        margin-top: 15px;
+        margin-left: 10px;
+
+    }
+
+    #display {
+        margin-top: 7rem;
+        margin-left: -20rem;
+    }
+    .our_car {
+        display: block;
+    }
+
+.polaroid {
+    margin-left: 2rem;
+    width: 80%;
+    height: 80%;
+}
+
+.middle {
+    margin-left: 10%;
+    width: 70%;
+}
+
+}
+
+@media only screen and (min-width:800px) and (max-width:1080px) {
+    #display {
+        margin-top: 7rem;
+        margin-left: -5rem;
+    }
+
+    .banner-image {
+        background-image: url("/public/image/background_image/backgroun1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 50rem;
+    }
+    .our_car {
+    
+        display: flex;
+      
+    }
+    .middle {
+        width:80%;
+    }
+    
+
+}
+
+@media only screen and (min-width:1080px) and (max-width:1262px) {
+
+    #display {
+        margin-top: 7rem;
+        margin-left: -5rem;
+    }
+
+    .banner-image {
+        background-image: url("/public/image/background_image/backgroun1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    .middle {
+        width: 70%;
+    }
+
+
+}
+
+@media (max-width: 450px) {
+    .banner-image {
+        background-image: url("/public/image/background_image/backgroun1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+    #header-dashbord {
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+
+    #benefit-main {
+        text-align: center;
+        text-transform: uppercase;
+
+    }
+
+    #benefit-title {
+        margin-left: 20%;
+        margin-right: 15%;
+    }
+
+    .benefit-line {
+        text-align: center;
+    }
+
+    .beninit-item-main {
+        display: inline-block;
+        margin: 3rem;
+    }
+
+    .city-btn {
+        padding: 0.3rem;
+    }
+
+    .my-select {
+        margin-top: 15px;
+        margin-left: 10px;
+
+    }
+
+    #display {
+        margin-top: -7rem;
+        margin-left: -25rem;
+    }
+
+    .my-city-content1 {
+        width: 10rem;
+
+    }
+
+    .home-searchBtn-container {
+
+        width: 10rem;
+
+    }
+
+    .dropIcon {
+        margin-left: 3rem;
+    }
+
+    .my-drop {
+        width: 23rem;
+    }
+
+    .line-dash {
+        margin-top: 2rem;
+        margin-left: 27rem;
+
+        width: 24rem;
+    }
+
+    .text-third {
+        margin-left: 25rem;
+        text-align: center;
+    }
+}
+

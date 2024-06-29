@@ -1,0 +1,233 @@
+.TopBannerDesktop__bannerContainer.TopBannerDesktop__tbSpace {
+    margin-top: 80px;
+}
+
+.TopBannerDesktop__bannerContainer {
+    /* height: 33vw; */
+    margin-top: 0;
+    margin-inline: auto;
+    position: relative;
+    width: 100%;
+}
+
+.BuyAndSellTabDesktop__buyAndSellTabDesktopContainer {
+    border-radius: 16px;
+    box-shadow: 2px 0px 20px 0px #a8a5ab;
+    margin-top: 5rem;
+    margin-inline: auto;
+    overflow-x: hidden;
+    width: 1240px;
+}
+
+.BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .BuyAndSellTabDesktop__tab {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px 0 hsla(0, 1%, 43%, 0.2);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60px;
+    margin-inline: auto;
+    padding: 6px;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 30rem;
+    width: 260px;
+    z-index: 1;
+}
+
+.BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .active {
+    color: #fff;
+    background-color: #ea1c0d;
+    border: none;
+    border-radius: 7px;
+    pointer-events: none;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .BuyAndSellTabDesktop__tab .BuyAndSellTabDesktop {
+    border-radius: 8px;
+    background: transparent;
+    color: Black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 22px;
+    padding: 10px 0;
+    text-align: center;
+    border: none;
+    z-index: 1;
+    width: 8rem;
+}
+
+.BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .BuyAndSellTabDesktop__tab .BuyAndSellTabDesktop__tabIndicator {
+    border-radius: 8px;
+    height: 42px;
+    left: 0;
+    position: absolute;
+    top: 6px;
+    transition: all .2s;
+    width: 130px;
+    z-index: 0;
+}
+
+.BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .BuyAndSellTabDesktop__buySellTab {
+    background-color: #fff;
+    border-radius: 12px;
+    padding-top: 56px;
+    position: relative;
+    width: 1240px;
+}
+
+.BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .BuyAndSellTabDesktop__tabContent {
+    align-items: flex-end;
+    display: flex;
+    position: relative;
+    /* touch-action: pan-y; */
+    transition: left .2s ease-in;
+    width: 200%;
+}
+
+.BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .BuyAndSellTabDesktop__buySellTab {
+    background-color: #fff;
+    border-radius: 12px;
+    padding-top: 56px;
+    position: relative;
+    width: 1240px;
+    /* height: 300px; */
+}
+
+.BuyCarTabDesktop__BuyCarTabDesktop {
+    width: 1240px;
+}
+
+
+.BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__heading {
+    color: #2e054e;
+    font-family: futura-heavy;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.BuyCarTabDesktop_h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: -3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #0e0d0d;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__heading {
+    color: #131114;
+    font-family: futura-heavy;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__benefits {
+    display: grid;
+    gap: 48px;
+    grid-template-columns: repeat(4, 234px);
+    justify-content: space-between;
+    padding: 0 56px;
+    position: relative;
+}
+
+
+ol,
+ul {
+    list-style: none;
+}
+
+.BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__browseCarCta {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto auto;
+    padding-inline: 44px;
+    padding-bottom: 32px;
+}
+
+.BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__benefits li>div .BuyCarTabDesktop__iconContainer {
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    position: relative;
+}
+
+.BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__benefits li>div .BuyCarTabDesktop__content {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 18px;
+    margin-top: 2rem;
+}
+
+.BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__heading {
+    color: #0b0a0a;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    line-height: 34px;
+    margin: 0 auto 40px;
+    text-align: center;
+}
+
+.BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__benefits li>div .BuyCarTabDesktop__content .BuyCarTabDesktop__heading>p.BuyCarTabDesktop__benefitDescription {
+    color: #2e054e;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.buycarImage {
+    width: 10rem;
+}
+
+
+@media only screen and (min-width:0px) and (max-width:500px) {
+    .BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .BuyAndSellTabDesktop__tab {
+        margin-left: 5rem;
+    }
+
+    .BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__benefits {
+        display: initial;
+        position: relative;
+    }
+
+
+    .BuyCarTabDesktop__BuyCarTabDesktop {
+        width: 25rem;
+    }
+
+}
+@media screen and (min-width:500px) and (max-width:900px) {
+
+    .BuyAndSellTabDesktop__buyAndSellTabDesktopContainer .BuyAndSellTabDesktop__tab {
+        margin-left: 20rem;
+    }
+
+    .BuyCarTabDesktop__BuyCarTabDesktop .BuyCarTabDesktop__benefits {
+        display: flex;
+        position: relative;
+    }
+
+
+    .BuyCarTabDesktop__BuyCarTabDesktop {
+        width: 35rem;
+    }
+
+}

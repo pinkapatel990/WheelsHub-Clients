@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.toyota{
+    display: grid;
+}
+
+.toyota .images{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.toyota .images .subCar1{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 500px;
+    background-image: url('../../../../../public/car/c9.jpeg');
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.toyota .images .subCar2{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 500px;
+    background-image: url('../../../../../public/car/c8.webp');
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+.toyota .images .subCar3{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 500px;
+    background-image: url('../../../../../public/car/c9.webp');
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}

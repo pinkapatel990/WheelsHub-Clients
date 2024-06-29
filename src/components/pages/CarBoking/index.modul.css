@@ -1,0 +1,402 @@
+.body-main {
+    background-color: rgb(236, 231, 231);
+    height: 100vh;
+}
+
+.main-rides {
+    margin: 0rem;
+    margin-top: 8rem;
+}
+
+.main-text {
+    color: rgb(8, 8, 8);
+    margin-left: 16rem;
+    width: 65rem;
+}
+
+.img-car {
+    width: 3rem;
+    border-radius: 2rem;
+    /* margin: 1rem; */
+}
+.theam{
+    background-color: rgb(200, 93, 93);
+}
+
+.icon-loc {
+    width: 1.3rem;
+    margin-left: 1rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.list-head {
+    display: flex;
+    border-bottom: 1px solid rgb(201, 183, 183);
+}
+
+.list-data {
+    margin-left: 1rem;
+}
+
+.list-car {
+    margin-left: 5rem;
+}
+
+.list-from {
+    margin-left: 8rem;
+}
+.status-cencal{
+    color:red;
+}
+.list-km {
+    margin-left: 4rem;
+}
+
+.list-crn {
+    margin-left: 6rem;
+}
+
+.list-total {
+    margin-left: 3rem;
+}
+
+.number-km {
+    margin-left: 2rem;
+}
+
+.total-amt {
+    margin-left: 2rem;
+}
+
+.crn {
+    margin-left: 3rem;
+}
+
+.list-status {
+    margin-left: 3rem;
+}
+
+.item-frame {
+    margin-top: 1rem;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+    padding-left: 0.4rem;
+    margin-right: 5rem;
+    width: 95%;
+    height: 60px;
+    font-size: medium;
+    margin-left: 0.3rem;
+    border-radius: 0.2rem;
+    /* border-bottom: 1px solid white; */
+}
+
+.item-from {
+    margin-left: 2rem;
+}
+
+.status-item {
+    margin-left: 1rem;
+    /* background-color: green; */
+    padding: 0.8rem;
+    color: green;
+    border-radius: 0.1rem;
+}
+
+#car-name {
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.cb-table {
+    margin: 0.1rem;
+}
+
+/* .table-item td{
+    
+    border: 1px solid black;
+} */
+.car-item {
+    width: 12rem;
+}
+
+.car-from {
+    width: 9rem;
+    padding-left: 0.3rem;
+}
+
+.car-phone {
+    width: 8rem;
+}
+
+
+
+
+
+.not-status {
+    text-align: center;
+    margin: 0.3rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.trip-head {
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 16rem;
+    font-weight: bolder;
+}
+.status-pro{
+    margin-left: 1rem;
+    padding: 0.8rem;
+    color: rgb(235, 81, 21);
+    border-radius: 0.1rem;
+}
+
+
+@media (max-width:500px) {
+    #my-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .main-text {
+
+        margin-left: 0rem;
+
+    }
+
+    .item-frame {
+
+        padding: 0.2rem;
+
+        width: 20%;
+        height: 30px;
+        font-size: small;
+
+    }
+
+}
+
+@media (max-width:950px) {
+    .horizontal-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+      }
+    .main-text {
+        margin-left: 1rem;
+        width: 60rem;
+        font-size: small;
+    }
+
+    .list-head {
+        display: flex;
+        border-bottom: 1px solid rgb(201, 183, 183);
+    }
+
+    .list-data {
+        margin-left: 0.3rem;
+
+    }
+
+    .list-car {
+        margin-left: 5rem;
+
+    }
+
+    .list-from {
+        margin-left: 6rem;
+
+    }
+
+    .list-km {
+        margin-left: 3rem;
+
+    }
+
+    .list-crn {
+        margin-left: 6rem;
+
+    }
+
+    .list-total {
+        margin-left: 2rem;
+    }
+
+    .item-frame {
+        margin-top: 0.6rem;
+        background-color: white;
+        color: black;
+        font-weight: bolder;
+        padding: 0.2rem;
+       
+        width: 80%;
+        height: 60px;
+        font-size: small;
+
+    } 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #my-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .main-text {
+        width: 50rem;
+        margin-left: 0rem;
+
+    }
+
+    .list-from {
+        margin-left: 3rem;
+
+    }
+
+    .list-crn {
+        margin-left: 1.8rem;
+    }
+
+    .list-car {
+        margin-left: 3rem;
+
+    }
+
+    #car-img {
+        display: none;
+    }
+
+    .car-item {
+        width: 7rem;
+        padding-left: 1rem;
+    }
+
+    .car-from {
+        padding: 0rem;
+    }
+
+    .item-frame {
+
+        padding: 0.2rem;
+
+        width: 80%;
+        height: 40px;
+        font-size: small;
+
+    }
+}
+
+@media (min-width: 600px) and (max-width: 854px) {
+    #my-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .main-text {
+
+        margin-left: 0rem;
+
+    }
+
+    .list-car {
+        margin-left: 1.2rem;
+
+    }
+
+    .list-crn {
+        margin-left: 2.8rem;
+    }
+
+    .item-frame {
+
+        padding: 0rem;
+
+        width: 70%;
+        height: 50px;
+        font-size: small;
+
+    }
+
+    
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    #my-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .item-frame {
+
+        padding: 0.2rem;
+
+        width: 40%;
+        height: 30px;
+        font-size: small;
+
+    }
+
+}
+
+@media (max-width: 767.98px) and (orientation: portrait) {
+    #my-scroll {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .item-frame {
+
+        padding: 0.2rem;
+
+        width: 45%;
+        height: 40px;
+        font-size: 10px;
+
+    }
+
+    .list-car {
+        margin-left: 0.5rem;
+        font-size: 14px;
+    }
+
+    .list-crn {
+        margin-left: 2.8rem;
+    }
+
+    #car-img {
+        display: none;
+    }
+
+    .list-from {
+        margin-left: 2rem;
+        font-size: 14px;
+    }
+
+    .list-data {
+        margin-left: 1rem;
+        font-size: 14px;
+    }
+
+    .list-crn {
+        margin-left: 2.8rem;
+        font-size: 14px;
+    }
+
+    .list-km {
+        margin-left: 3rem;
+        font-size: 14px;
+    }
+
+    .list-total {
+        margin-left: 1rem;
+        font-size: 14px;
+    }
+
+    .list-status {
+        margin-left: 2rem;
+        font-size: 14px;
+    }
+
+   
+} 

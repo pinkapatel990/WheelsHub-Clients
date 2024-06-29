@@ -1,0 +1,129 @@
+.account-screen{
+    margin-top: 4rem;
+    background-color: white;
+    color:black;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+}
+.account-screen h3{
+    margin: 0;
+    padding: 0;
+    margin-top: 0rem;
+    margin-left: 0rem;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(19, 19, 18);
+}
+.account-screen p{
+    color: rgb(17, 16, 15);
+    /* margin-top: 2rem; */
+    margin: 0;
+}
+.img-account{
+    display: inline-flex;
+    padding: 0rem;
+    margin: 0;
+    /* background-color: black; */
+}
+.img-account img{
+   
+    margin: 2rem;
+    margin-left: 3rem;
+    height: 50px;
+}
+.account-screen li{
+    text-align: left;
+    margin: 1.2rem;
+    color:rgb(19, 19, 18);
+    border-bottom: 1px solid rgb(48, 43, 43);
+    width: auto;
+    list-style-type: none;
+}
+.account-screen a{
+    color: rgb(26, 25, 24);
+    border: none;
+    text-decoration: none;
+  
+   
+}
+.user-name{
+    margin-top: 2rem;
+    margin-left: -15px;
+}
+.side-menu{
+    margin-left: 2rem;
+}
+.side-menu p {
+    padding: 0.7rem;
+}
+.item-sidenav{
+    margin: 0.1rem;
+}
+.item-sidenav:hover{
+    background-color: #f33f3f;
+
+}
+@media only screen and (max-width: 800px) {
+    .account-screen{
+        margin-top: 2.5rem;
+     
+        width: 15rem;
+        height: 100vh;
+       
+    }
+}
+@media only screen and (min-width: 800px), (max-width:1080){
+    .account-screen{
+        margin-top: 2.5rem;
+      
+        width: 15rem;
+        height: 100vh;
+        position: fixed;
+    }
+}
+
+.side-navbar {
+    background-color: #f2f2f2;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Change this value to 0 if you want the side navbar to be initially open */
+    height: 100%;
+    width: 250px;
+    padding-top: 60px;
+    transition: left 0.3s ease;
+  }
+  
+  .side-nav{
+      margin-top: 2rem;
+      /* position: fixed; */
+  }
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    background: transparent;
+    margin-left: 90%;
+    border: none;
+    cursor: pointer;
+  }
+  .my-close{
+      margin-top: 2rem;
+  }
+  .account-div{
+      margin-top: 3.8rem;
+      background-color: white;
+      width: 4rem;
+      height: 100vh;
+      
+  }
+  .account-div #navbarNavSide{
+      display: none;
+  }
+  .account-div #nav-item{
+    display: none;
+  }
+  .account-div button{
+      margin-top: 0.8rem;
+  }

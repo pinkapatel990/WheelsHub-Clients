@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.maruti{
+    display: grid;
+}
+
+.maruti .images{
+    margin-left: 50px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.maruti .images .subCar1{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 400px;
+    background-image: url('../../../../..//public/car/c5.avif');
+    background-size: 400px 300px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.maruti .images .subCar2{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 400px;
+    background-image: url('../../../../..//public/car/c5.webp');
+    background-size: 400px 300px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
+
+.maruti .images .subCar3{
+    height: 300px;
+    border: 0.5px solid;
+    box-shadow: 5px 10px 15px;
+   border-radius: 8px;
+    width: 450px;
+    background-image: url('../../../../..//public/car/c6.jpg');
+    background-size: 450px 300px;
+    /* background: transparent; */
+    margin-bottom: 10px;
+    margin-right: 20px;
+}
